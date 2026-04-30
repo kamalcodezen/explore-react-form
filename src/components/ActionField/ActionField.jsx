@@ -4,7 +4,7 @@ const ActionField = () => {
     console.log(fromData.get("email"));
   };
 
-  return (
+  return (   
     <div>
       <form action={handleFromData}>
         <input type="text" name="name" placeholder="Your Name" />
